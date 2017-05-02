@@ -1,0 +1,124 @@
+@charset "
+            UTF - 8 ";
+
+            @import url("http://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+
+            @import url("assets/css/vendor.css");
+
+            {
+                color: #F8F8FF;
+                font - size: 14 pt;
+                font - family: Consolas;
+                text - shadow: 2 px 3 px 2 px black;
+
+            }
+            right {
+                float: right;
+                margin - right: 180 px; -
+                webkit - animation: fadein 4 s; -
+                moz - animation: fadein 4 s; -
+                ms - animation: fadein 4 s; -
+                o - animation: fadein 4 s;
+                animation: fadein 4 s;
+            }
+            left {
+                float: left;
+                margin - left: 180 px; -
+                webkit - animation: fadein 4 s; -
+                moz - animation: fadein 4 s; -
+                ms - animation: fadein 4 s; -
+                o - animation: fadein 4 s;
+                animation: fadein 4 s;
+            }
+            shake.shake,
+            .shake.inline {
+                display: inline - block
+            }
+
+            @keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @ - moz - keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @ - webkit - keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @ - ms - keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @ - o - keyframes fadein {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            @keyframes shakenz {
+                0 % {
+                    transform: translate(4 px, 3 px) rotate(0 deg);
+                }
+                10 % {
+                    transform: translate(-5 px, -3 px) rotate(-1 deg);
+                }
+                20 % {
+                    transform: translate(-4 px, 2 px) rotate(1 deg);
+                }
+                30 % {
+                    transform: translate(2 px, 3 px) rotate(0 deg);
+                }
+                40 % {
+                    transform: translate(1 px, -3 px) rotate(1 deg);
+                }
+                50 % {
+                    transform: translate(-3 px, 3 px) rotate(-1 deg);
+                }
+                60 % {
+                    transform: translate(-4 px, 3 px) rotate(0 deg);
+                }
+                70 % {
+                    transform: translate(4 px, 3 px) rotate(-1 deg);
+                }
+                80 % {
+                    transform: translate(-4 px, -3 px) rotate(1 deg);
+                }
+                90 % {
+                    transform: translate(5 px, 3 px) rotate(0 deg);
+                }
+                100 % {
+                    transform: translate(4 px, 3 px) rotate(-1 deg);
+                }
+            }
+            .shake: hover,
+            .shake: focus {
+                animation - name: shakenz;
+                animation - duration: 0.3 s;
+                transform - origin: 75 % 90 % ;
+                animation - iteration - count: infinite;
+                animation - timing - function: linear;
+            }

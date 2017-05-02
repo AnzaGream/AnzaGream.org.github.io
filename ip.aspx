@@ -1,0 +1,1 @@
+document.write('<a href="http://www.snaphost.com/tools/VisitorIpChecker.aspx" style="text-decoration:none;" target="_blank" title="This Visitor&#39;s IP Checker shows your computer&#39;s IP address."></a>');
